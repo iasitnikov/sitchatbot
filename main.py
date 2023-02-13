@@ -3,8 +3,8 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-token = '6112037512:AAEF3yajVQiAddZy4ZqweXdJsy4UoWuzqn0'
-openai.api_key = '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'
+token = 'YOUR_TELEGRAM_TOKEN'
+openai.api_key = 'OPENAI_API_KEY'
 
 bot = Bot(token)
 dp = Dispatcher(bot)
